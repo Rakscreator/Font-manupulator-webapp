@@ -1,38 +1,18 @@
-@font-face {
-    font-family: "Tesla regular";
-    src: url(TESLA.ttf);
-}
-
 body{
     background-color: black;
 }
 h3{
     color: #fff;
     text-shadow:
-    0 0 4px #fff,
-    0 0 11px #fff,
-    0 0 19px #fff,
-    0 0 40px #0fa,
-    0 0 80px #0fa,
-    0 0 90px #0fa,
-    0 0 100px #0fa,
-    0 0 150px #0fa;
-    font-family: "Tesla regular";
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
     font-size: 25px;
-}
-#font-size{
-    color: rgb(255, 0, 0);
-    text-shadow:
-    0 0 7px rgb(255, 153, 0),
-    0 0 10px rgb(255, 153, 0),
-    0 0 21px rgb(255, 153, 0),
-    0 0 42px rgb(255, 0, 0),
-    0 0 82px rgb(225, 0, 0),
-    0 0 92px rgb(225, 0, 0),
-    0 0 102px rgb(225, 0, 0),
-    0 0 151px rgb(225, 0, 0);
-    font-family: "Tesla regular";
-    font-size: 20px;
 }
 .note{
     font-size: 17px;
@@ -40,31 +20,45 @@ h3{
 .bottom{
     bottom: 0;
     position: fixed;
-    color: rgb(246, 255, 0);
+    color: cyan;
     text-align: center;
     width: 100%;
     text-shadow:
-    0 0 7px rgb(255, 153, 0),
-    0 0 10px rgb(255, 153, 0),
-    0 0 21px rgb(255, 153, 0),
-    0 0 42px rgb(255, 0, 0),
-    0 0 82px rgb(225, 0, 0),
-    0 0 92px rgb(225, 0, 0),
-    0 0 102px rgb(225, 0, 0),
-    0 0 151px rgb(225, 0, 0);
+    0 0 7px rgb(0, 204, 255),
+    0 0 10px rgb(0, 204, 255),
+    0 0 21px rgb(0, 204, 255),
+    0 0 42px rgb(0, 17, 255),
+    0 0 82px rgb(0, 17, 255),
+    0 0 92px rgb(0, 17, 255),
+    0 0 102px rgb(0, 17, 255),
+    0 0 151px rgb(0, 17, 255);
 }
 canvas{
     border: 1px solid white;
     box-shadow:
-    0 0 2px rgb(0, 255, 255),
-    0 0 8px rgb(0, 255, 255),
-    0 0 19px rgb(0, 255, 255),
-    0 0 21px rgb(0, 225, 255),
-    0 0 32px rgb(0, 225, 255),
-    0 0 38px rgb(0, 225, 255),
-    0 0 40px rgb(0, 225, 255),
-    0 0 53px rgb(0, 225, 255);
+    0 0 2px rgb(255, 119, 0),
+    0 0 8px rgb(255, 119, 0),
+    0 0 19px rgb(255, 119, 0),
+    0 0 21px rgb(255, 0, 0),
+    0 0 32px rgb(255, 0, 0),
+    0 0 38px rgb(255, 0, 0),
+    0 0 40px rgb(255, 0, 0),
+    0 0 53px rgb(255, 0, 0);
     background-color: rgb(56, 56, 56);
     border-radius: 30px;
     margin-top:30px;
+}
+video{
+    /* margin-top: 0px;*/
+    margin-left: 100px;
+    border-radius: 300px;
+    box-shadow:
+    0 0 7px rgb(255, 166, 0),
+    0 0 10px rgb(255, 166, 0),
+    0 0 21px rgb(225, 166, 0),
+    0 0 42px rgb(255, 106, 0),
+    0 0 82px rgb(255, 106, 0),
+    0 0 92px rgb(255, 106, 0),
+    0 0 102px rgb(255, 106, 0),
+    0 0 151px rgb(255, 106, 0);
 }
