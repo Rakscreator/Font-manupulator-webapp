@@ -89,6 +89,6 @@ video{
     0 0 40px rgb(0, 225, 255),
     0 0 53px rgb(0, 225, 255);
     margin-left: 80px;
-    margin-top: 20px;
+    margin-top: -10px;
     border-radius: 50px;
 }
