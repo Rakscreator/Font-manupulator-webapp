@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Tesla regular";
+    font-family: "Tesla_regular";
     src: url(TESLA.ttf);
 }
 
@@ -17,7 +17,7 @@ h3{
     0 0 90px #0fa,
     0 0 100px #0fa,
     0 0 150px #0fa;
-    font-family: "Tesla regular";
+    font-family: "Tesla_regular";
     font-size: 30px;
 }
 #font-size{
@@ -31,7 +31,7 @@ h3{
     0 0 92px rgb(225, 0, 0),
     0 0 102px rgb(225, 0, 0),
     0 0 151px rgb(225, 0, 0);
-    font-family: "Tesla regular";
+    font-family: "Tesla_regular";
     font-size: 20px;
 }
 .note{
@@ -40,11 +40,11 @@ h3{
     0 0 4px #fff,
     0 0 11px #fff,
     0 0 19px #fff,
-    0 0 40px rgb(0, 114, 23),
-    0 0 80px rgb(0, 114, 23),
-    0 0 90px rgb(0, 114, 23),
-    0 0 100px rgb(0, 114, 23),
-    0 0 150px rgb(0, 114, 23);
+    0 0 40px #0fa,
+    0 0 80px #0fa,
+    0 0 90px #0fa,
+    0 0 100px #0fa,
+    0 0 150px #0fa;
     color: #0fa;
 }
 .bottom{
@@ -76,7 +76,20 @@ canvas{
     0 0 53px rgb(0, 225, 255);
     background-color: rgb(56, 56, 56);
     border-radius: 30px;
-    margin-top:30px;
+    margin-top: 60px;
+}
+canvas text{
+    color: rgb(255, 234, 0);
+    text-shadow:
+    0 0 7px rgb(255, 153, 0),
+    0 0 10px rgb(255, 153, 0),
+    0 0 21px rgb(255, 153, 0),
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(225, 0, 0),
+    0 0 92px rgb(225, 0, 0),
+    0 0 102px rgb(225, 0, 0),
+    0 0 151px rgb(225, 0, 0);
+    font-family: "Tesla_regular";
 }
 video{
     box-shadow:
@@ -89,6 +102,58 @@ video{
     0 0 40px rgb(0, 225, 255),
     0 0 53px rgb(0, 225, 255);
     margin-left: 80px;
-    margin-top: -10px;
+    margin-top: 10px;
     border-radius: 50px;
+}
+#nametag{
+    color: rgb(255, 234, 0);
+    text-shadow:
+    0 0 7px rgb(255, 153, 0),
+    0 0 10px rgb(255, 153, 0),
+    0 0 21px rgb(255, 153, 0),
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(225, 0, 0),
+    0 0 92px rgb(225, 0, 0),
+    0 0 102px rgb(225, 0, 0),
+    0 0 151px rgb(225, 0, 0);
+    font-family: "Tesla_regular";
+    font-size: 20px;
+}
+#giname{
+    background-color: black;
+    color: rgb(255, 234, 0);
+    text-shadow:
+    0 0 7px rgb(255, 153, 0),
+    0 0 10px rgb(255, 153, 0),
+    0 0 21px rgb(255, 153, 0),
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(225, 0, 0),
+    0 0 92px rgb(225, 0, 0),
+    0 0 102px rgb(225, 0, 0),
+    0 0 151px rgb(225, 0, 0);
+    font-family: "Tesla_regular";
+    font-size: 20px;
+}
+.butt{
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 234, 0);
+    text-shadow:
+    0 0 7px rgb(255, 153, 0),
+    0 0 10px rgb(255, 153, 0),
+    0 0 21px rgb(255, 153, 0),
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(225, 0, 0),
+    0 0 92px rgb(225, 0, 0),
+    0 0 102px rgb(225, 0, 0),
+    0 0 151px rgb(225, 0, 0);
+    font-family: "Tesla_regular";
+    box-shadow: 
+    0 0 7px rgb(255, 153, 0),
+    0 0 10px rgb(255, 153, 0),
+    0 0 21px rgb(255, 153, 0),
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(225, 0, 0),
+    0 0 92px rgb(225, 0, 0),
+    0 0 102px rgb(225, 0, 0),
+    0 0 151px rgb(225, 0, 0);;
 }
